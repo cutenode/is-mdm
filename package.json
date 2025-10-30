@@ -1,12 +1,19 @@
 {
-  "name": "is-mdm",
-  "version": "0.0.1",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "description": ""
+	"name": "is-mdm",
+	"version": "0.0.1",
+	"main": "index.js",
+	"scripts": {
+		"check": "biome check",
+		"format": "npx @biomejs/biome format",
+		"format:write": "npx @biomejs/biome format --write"
+	},
+	"keywords": [
+		"mdm"
+	],
+	"author": "Tierney Cyren <hello@bnb.im>",
+	"license": "MIT",
+	"description": "is-mdm allows for quick, zero dependency checking of whether or not the device it is run on is a managed device.",
+	"devDependencies": {
+		"@biomejs/biome": "2.3.2"
+	}
 }
