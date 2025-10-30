@@ -15,5 +15,14 @@
 	"description": "is-mdm allows for quick, zero dependency checking of whether or not the device it is run on is a managed device.",
 	"devDependencies": {
 		"@biomejs/biome": "2.3.2"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cutenode/is-mdm.git"
+	},
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/cutenode/is-mdm/issues"
+	},
+	"homepage": "https://github.com/cutenode/is-mdm#readme"
 }
