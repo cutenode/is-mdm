@@ -34,4 +34,4 @@ function isMdm () {
 	}
 }
 
-module.exports = isMdmMacOS
+module.exports = isMdm
