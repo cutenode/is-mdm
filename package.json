@@ -1,6 +1,6 @@
 {
 	"name": "is-mdm",
-	"version": "0.0.3",
+	"version": "1.0.0",
 	"main": "isMdm.cjs",
 	"module": "isMdm.mjs",
 	"exports": {
