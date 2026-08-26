@@ -3,6 +3,7 @@ name: Release
 on:
   release:
     types: [published]
+  workflow_dispatch: # allow manual publish/recovery from the default branch
 
 permissions:
   contents: read
