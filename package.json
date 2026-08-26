@@ -1,7 +1,20 @@
 {
 	"name": "is-mdm",
 	"version": "0.0.3",
-	"main": "index.js",
+	"main": "isMdm.cjs",
+	"module": "isMdm.mjs",
+	"exports": {
+		".": {
+			"import": "./isMdm.mjs",
+			"require": "./isMdm.cjs",
+			"default": "./isMdm.cjs"
+		},
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"isMdm.cjs",
+		"isMdm.mjs"
+	],
 	"scripts": {
 		"check": "biome check",
 		"format": "npx @biomejs/biome format",
