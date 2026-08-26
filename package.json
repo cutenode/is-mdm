@@ -18,7 +18,9 @@
 	"scripts": {
 		"check": "biome check",
 		"format": "npx @biomejs/biome format",
-		"format:write": "npx @biomejs/biome format --write"
+		"format:write": "npx @biomejs/biome format --write",
+		"test": "node --test",
+		"coverage": "c8 node --test"
 	},
 	"keywords": [
 		"mdm"
@@ -27,7 +29,8 @@
 	"license": "MIT",
 	"description": "is-mdm allows for quick, zero dependency checking of whether or not the device it is run on is a managed device.",
 	"devDependencies": {
-		"@biomejs/biome": "2.3.2"
+		"@biomejs/biome": "2.3.2",
+		"c8": "^12.0.0"
 	},
 	"repository": {
 		"type": "git",
