@@ -4,8 +4,21 @@ is-mdm is a tiny library inspired by LGUG2Z's [article](https://lgug2z.com/artic
 
 ## Usage
 
+is-mdm ships as a dual-mode package, so it works with both CommonJS (`require`) and ES modules (`import`).
+
+CommonJS:
+
 ```js
 const isMdm = require('is-mdm')
+
+isMdm() // will return true if we think the device is managed by MDM, otherwise will return false
+```
+
+ES modules:
+
+```js
+import isMdm from 'is-mdm'
+// or: import { isMdm } from 'is-mdm'
 
 isMdm() // will return true if we think the device is managed by MDM, otherwise will return false
 ```
